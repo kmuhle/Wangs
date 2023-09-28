@@ -1,0 +1,228 @@
+{
+    "locations":[
+        {
+            "name": "New York",
+            "address" : "789 Fifth Avenue, New York, NY 10022",
+            "phone": "(917) 555-4321",
+            "longitude": -74.0060,
+            "latitude": 40.7128,
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"8:00AM to 7:00PM"},
+                {"day":"Tuesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Wednesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Thursday", "times":"8:00AM to 7:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+            ]
+        },
+        {
+            "name": "New Haven",
+            "address" : "111 Elm Street, New Haven, CT 06511",
+            "phone": "(475) 923-9876",
+            "longitude": -72.9279,
+            "latitude": 41.3083,
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"8:00AM to 7:00PM"},
+                {"day":"Tuesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Wednesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Thursday", "times":"8:00AM to 7:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+            ]
+        },
+        {
+            "name": "Boston",
+            "address" : "123 Main Street, Boston, MA 02108",
+            "longitude": -71.0589,
+            "latitude": 42.3601,
+            "phone": "(617) 233-2468",
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"8:00AM to 7:00PM"},
+                {"day":"Tuesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Wednesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Thursday", "times":"8:00AM to 7:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+            ]
+        },
+        {
+            "name": "Los Angeles",
+            "address" : "1000 Hollywood Blvd, Los Angeles, CA 90028",
+            "phone": "(310) 523-1357",
+            "longitude": -118.2437,
+            "latitude": 34.0522,
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"8:00AM to 7:00PM"},
+                {"day":"Tuesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Wednesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Thursday", "times":"8:00AM to 7:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+            ]
+        },
+        {
+            "name": "San Francisco",
+            "address" : "7890 Lombard St, San Francisco, CA 94133",
+            "phone": "(415) 555-3698",
+            "longitude": -122.4194,
+            "latitude": 37.7749,
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"8:00AM to 7:00PM"},
+                {"day":"Tuesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Wednesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Thursday", "times":"8:00AM to 7:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+            ]
+        },
+        {
+            "name": "Philadelphia",
+            "address" : "1751 Liberty Bell St, Philadelphia, PA 19139",
+            "phone": "(215) 555-7890",
+            "longitude": -75.1652,
+            "latitude": 39.9526,
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"8:00AM to 7:00PM"},
+                {"day":"Tuesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Wednesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Thursday", "times":"8:00AM to 7:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+            ]
+        },
+        {
+            "name": "Washington D.C.",
+            "address" : "3456 Constitution Ave NW, Washington, DC 20009",
+            "phone": "(202) 545-7643",
+            "longitude": -77.0369,
+            "latitude": 38.9072,
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"8:00AM to 7:00PM"},
+                {"day":"Tuesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Wednesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Thursday", "times":"8:00AM to 7:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+            ]
+        },
+        {
+            "name": "Seattle",
+            "address" : "9012 Pike Pl, Seattle, WA 98101",
+            "phone": "(206) 725-8868",
+            "longitude": -122.3321,
+            "latitude": 47.6062,
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"8:00AM to 7:00PM"},
+                {"day":"Tuesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Wednesday", "times":"8:00AM to 7:00PM"},
+                {"day":"Thursday", "times":"8:00AM to 7:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+            ]
+        },
+        {
+            "name": "Atlanta",
+            "address" : "123 Peachtree St, Atlanta, GA 30303",
+            "phone": "(404) 555-1212",
+            "longitude": -84.3902,
+            "latitude": 33.7490,
+            "hours": [
+                {"day":"Sunday", "times":"12:00PM to 6:00PM"},
+                {"day":"Monday", "times":"9:00AM to 8:00PM"},
+                {"day":"Tuesday", "times":"9:00AM to 8:00PM"},
+                {"day":"Wednesday", "times":"9:00AM to 8:00PM"},
+                {"day":"Thursday", "times":"9:00AM to 8:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+                ]
+        },
+        {
+            "name": "Houston",
+            "address" : "456 Main St, Houston, TX 77002",
+            "phone": "(713) 555-9876",
+            "longitude": -95.3698,
+            "latitude": 29.7604,
+            "hours": [
+                {"day":"Sunday", "times":"12:00PM to 6:00PM"},
+                {"day":"Monday", "times":"9:00AM to 8:00PM"},
+                {"day":"Tuesday", "times":"9:00AM to 8:00PM"},
+                {"day":"Wednesday", "times":"9:00AM to 8:00PM"},
+                {"day":"Thursday", "times":"9:00AM to 8:00PM"},
+                {"day":"Friday", "times":"11:00AM to 11:00PM"},
+                {"day":"Saturday", "times":"11:00AM to 11:00PM"}
+                ]
+        },
+        {
+            "name": "Miami",
+            "address" : "789 Ocean Drive, Miami Beach, FL 33139",
+            "phone": "(305) 555-2468",
+            "longitude": -80.1300,
+            "latitude": 25.7907,
+            "hours": [
+                {"day":"Sunday", "times":"12:00PM to 6:00PM"},
+                {"day":"Monday", "times":"9:00AM to 8:00PM"},
+                {"day":"Tuesday", "times":"9:00AM to 8:00PM"},
+                {"day":"Wednesday", "times":"9:00AM to 8:00PM"},
+                {"day":"Thursday", "times":"9:00AM to 8:00PM"},
+                {"day":"Friday", "times":"11:00AM to 11:00PM"},
+                {"day":"Saturday", "times":"11:00AM to 11:00PM"}
+                ]
+        },
+        {
+            "name": "Denver",
+            "address" : "7890 W Colfax Ave, Denver, CO 80214",
+            "phone": "(303) 555-5678",
+            "longitude": -105.0398,
+            "latitude": 39.7392,
+            "hours": [
+                {"day":"Sunday", "times":"10:00AM to 6:00PM"},
+                {"day":"Monday", "times":"9:00AM to 8:00PM"},
+                {"day":"Tuesday", "times":"9:00AM to 8:00PM"},
+                {"day":"Wednesday", "times":"9:00AM to 8:00PM"},
+                {"day":"Thursday", "times":"9:00AM to 8:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+                ]
+        },
+        {
+            "name": "Kansas City",
+            "address" : "789 Main Street, Kansas City, MO 64108",
+            "phone": "(816) 555-4321",
+            "longitude": -94.5786,
+            "latitude": 39.0997,
+            "hours": [
+                {"day":"Sunday", "times":"11:00AM to 7:00PM"},
+                {"day":"Monday", "times":"9:00AM to 9:00PM"},
+                {"day":"Tuesday", "times":"9:00AM to 9:00PM"},
+                {"day":"Wednesday", "times":"9:00AM to 9:00PM"},
+                {"day":"Thursday", "times":"9:00AM to 9:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+                ]
+        },
+        {
+            "name": "Dallas",
+            "address" : "123 Main Street, Dallas, TX 75201",
+            "phone": "(214) 555-1234",
+            "longitude": -96.7970,
+            "latitude": 32.7767,
+            "hours": [
+                {"day":"Sunday", "times":"12:00PM to 6:00PM"},
+                {"day":"Monday", "times":"9:00AM to 9:00PM"},
+                {"day":"Tuesday", "times":"9:00AM to 9:00PM"},
+                {"day":"Wednesday", "times":"9:00AM to 9:00PM"},
+                {"day":"Thursday", "times":"9:00AM to 9:00PM"},
+                {"day":"Friday", "times":"10:00AM to 10:00PM"},
+                {"day":"Saturday", "times":"10:00AM to 10:00PM"}
+                ]
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Wang's" />
+        <meta name="keywords" content="Chinese, Food, Restaurant" />
+
+        <!-- responsive setting -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- compatible for old IE -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>Merch</title>
+
+        <link rel="stylesheet" href="../../externals/navibar.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Questrial&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            /* other stuff */
+            .footerSubheading{
+                color:white;
+                text-shadow:none !important;            
+            }
+
+            a{
+                color: #1d3821;
+                text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);            
+            }
+
+            body{
+                overflow-x: hidden;
+            }
+
+            h1{
+                color: #1d3821 !important;
+                text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15) !important;
+            }
+
+            p{
+                color: #1d3821 !important;
+                font-size: 1.3vw;
+                text-shadow: 1px .5px 0px white, 1px 2px 0px #c8b046 !important;
+            }
+
+            .MerchPageBackground {
+                block-size: 25vw;
+                background: url("./merchBanner.png");
+                margin-left: -1%;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+            .products {
+                display: flex;
+                justify-content: center;
+            }
+
+            .product {
+                width: 30vw;
+                height: 20vw;
+                padding: 4vw;
+                margin: 6vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-image: linear-gradient(to right bottom, #f0e9e1, #c8b04669);
+                box-shadow:0 2px 2px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+                border-radius: 50px;
+            }
+
+            .product:hover{
+                width: 35vw;
+                background-image: linear-gradient(to right bottom, #f0e9e1, #c8b046);
+                border: #183c26 2.5px solid;
+                box-shadow: 0px 2px 2px #d1292d, 0px 2px 2px rgba(0, 0, 0, 0.621);
+            }
+
+            .product p {
+                text-align: center;
+                color: black;
+                bottom: 0;
+            }
+
+            .product img {
+                width: 110%;
+                margin: auto;
+                filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.631));
+            }
+
+            .MerchPageBackground h1 {
+                text-align: center;
+                font-size: 60px;
+                text-shadow: 2px 2px 2px black;
+                color: white;
+            }
+        </style>
+    </head>
+    <header>
+        <div class="navContainer">
+            <div class="navBar navCard">
+                <a href="../../index.html">
+                    <img
+                        src="../../images/logo3.png"
+                        class="logo w3-padding-large"
+                        style="
+                            width: 5em;
+                            height: 5.1em;
+                            padding: 1%;
+                            filter: drop-shadow(
+                                3px 4px 0px rgba(0, 0, 0, 0.15)
+                            );
+                        "
+                /></a>
+                <a href="../Menu/Menu.html" class="navBarItem navButton"
+                    ><b>ORDER NOW</b></a
+                >
+                <a
+                    href="../Employment/Employment.html"
+                    class="navBarItem navButton"
+                    >JOB OFFERINGS</a
+                >
+                <a
+                    href="../Membership/Membership.html"
+                    class="navBarItem navButton"
+                    >BECOME A MEMBER</a
+                >
+                <a href="../Merch/merch.html" class="navBarItem navButton"
+                    >BUY OUR MERCH</a
+                >
+                <a href="../Contact2/contact.html" class="navBarItem navButton"
+                    >CONTACT US</a
+                >
+                <a
+                    href="../Locations/locations.html"
+                    class="navBarItem navButton"
+                    >FIND US</a
+                >
+            </div>
+        </div>
+    </header>
+    <body>
+        <!-- Body -->
+        <br />
+        <div class="MerchPageBackground">
+            <h1 style="padding-top: 10%">OUR MERCHANDISE</h1>
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="./productOne.png"  style="width: 140%; 
+                margin-left: -25% !important;
+                margin-top: 10% !important;"/> <br><br>
+                <p><b>custom paired mugs</b> <br> $30.00</p>
+            </div>
+
+            <div class="product">
+                <img src="./productThree.png"/>
+                <p><b>reusable paper bag</b> <br> $3.00 </p>
+            </div>
+
+            <div class="product">
+                <img src="./deliveryBox.png" style="width: 130%; 
+                margin-left: -10% !important;
+                margin-top: 45% !important;"/><br><br>
+                <p><b>classic delivery box</b><br> $5.00</p>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer" style="text-decoration: none; margin-left: .05%; width: 93.3%;">
+            <hr style="border-top: 1px solid white; width: 95%;">
+            <br>
+            <div class="mainFooter">
+                <div class="footerCol">
+                    <h1><a href="../Locations/locations.html">DINE WITH US</a></h1>
+                    <h2><a href="../Menu/Menu.html" class="footerSubheading">Menu</a></h2>
+                    <h2><a href="../Menu/Menu.html" class="footerSubheading">Order Now</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Employment/Employment.html">JOIN OUR FAMILY</a></h1>
+                    <h2><a href="../Employment/Employment.html" class="footerSubheading">Job Offerings</a></h2>
+                    <h2><a href="../Membership/Membership.html" class="footerSubheading">Become a Member</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Employment/Employment.html">FIND US AT</a></h1>
+                    <h2 class="footerSubheading">123 Main Street.<br>
+                        Boston, MA 02108<br>
+                    </h2>
+                    <h2><a href="../Locations/locations.html" class="footerSubheading">📍 More Locations</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Contact2/contact.html">CONTACT US</a></h1>
+                    <h2 class="footerSubheading">+1 (857) 302 3044</h2>
+                    <h2 class="footerSubheading">contactwangs@gmail.com</h2>
+                </div>
+                <div class="footerCol">
+                    <div class="footer-icons">
+                        <img src="../../images/logoGreen.png">
+                        <img src="../../images/footerIcon1.png"
+                        style="width:30px; opacity: 0.9; padding-bottom:15%;">
+                        <img src="../../images/footerIcon2.png" 
+                        style="width:30px; opacity: 0.9; padding-bottom:15%;">
+                    </div>
+                </div>
+            </div>
+            <hr style="border-top: 1px solid white; width: 95%;">
+            <div class="bottomFooter">
+                <h3 style="font-size: 12px;">Copyright © 1999 WANG's.</h3>
+                <h3 style="font-size: 12px;">Privacy &nbsp; | &nbsp; Terms</h3>
+            </div>
+        </div>
+    </body>
+</html>

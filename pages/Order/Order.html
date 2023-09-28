@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Wang's">
+        <meta name="keywords" content="Chinese, Food, Restaurant">
+
+        <!-- responsive setting -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- compatible for old IE -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="../../externals/navibar.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Questrial&display=swap" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script type="text/javascript" src="loadOrder.js" defer></script>
+
+        <style>
+            body{
+                overflow-x: hidden;
+            }
+
+            a{
+                color: #1d3821;
+                text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);            
+            }
+
+            a:hover{
+                cursor: pointer !important;
+            }
+
+            .footerSubheading{
+                color:white !important;
+                text-shadow:none !important;
+                opacity: 1 !important;            
+            }
+
+            h1 {
+                font-size: 2.5vw;
+                color: #1d3821;
+                text-shadow: 2px 1px 0px white, 3px 4px 0px #d5c15059;
+                text-align: center;
+            }
+
+            h4 {
+                font-size: 1.5vw;
+                color: #bd271a;   
+                opacity: 0.7;         
+            }
+
+            h5{
+                font-size: 4vw;
+                margin-top: 28%;
+                color: #1d3821;
+                text-shadow: 2px 1px 0px white, 3px 4px 0px #d5c15059;
+                text-align: center;
+            }
+
+            li {
+                font-size: 1.75vw;
+            }
+
+            table {
+                border-collapse: collapse;
+                margin: auto;
+                width: 70%;
+                font-size: 2vw;
+                text-align: center;
+                min-width: 200px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            }
+
+            p {
+                size: 70vw;
+                margin: auto;
+                width: 70%;
+                font-size: 2vw;
+            }
+
+            #order-display{
+                font-size: 1.5vw;
+                text-align: center;
+                color: #183c26;
+                box-shadow: 1px 2px 2px 2px #183c26, 1px 2px 2px 2px #d3bd48;
+                border-radius: 10px;
+            }
+
+            #ordered-display{
+                font-size: 1.5vw;
+                text-align: center;
+                color: #183c26;
+                box-shadow: 1px 2px 2px 2px #183c26, 1px 2px 2px 2px #d3bd48;
+                border-radius: 10px;
+            }
+
+            .cart-button {
+                font-size: 1.2vw;
+                font-family: Averia;
+                font-stretch: expanded;
+                text-align: center;
+                margin-left: 41.5%;
+                display: inline-flex;
+                margin-top: 5%;
+                padding: 1.5% 2%;
+                background-color: #183c26;
+                border: #183c26 3px solid;
+                color:white;
+                font-weight: 600;    
+                cursor: pointer;
+                transition: 0.3s ease;
+                text-decoration: none;
+                border-radius: 50px;
+                box-shadow: 0px 2px 2px #d3bd48, 0px 2px 2px #bd271a;
+            }
+
+            .cart-button:hover{
+                transform: translate(2%, 2%);
+                background-color: #f1eadf;
+                color:#183c26;
+                border: #183c26 3px solid;
+                font-weight: 600;    
+                cursor: pointer !important;
+                box-shadow: 0px 2px 2px #bd271a, 0px 2px 2px #bd271a;
+            }
+
+            .bill-button {
+                font-size: 1.2vw;
+                font-family: Averia;
+                font-stretch: expanded;
+                text-align: center;
+                margin-left: 41.5%;
+                display: inline-flex;
+                margin-top: 5%;
+                padding: 1.5% 2%;
+                background-color: #183c26;
+                border: #183c26 3px solid;
+                color:white;
+                font-weight: 600;    
+                cursor: pointer;
+                transition: 0.3s ease;
+                text-decoration: none;
+                border-radius: 50px;
+                box-shadow: 0px 2px 2px #d3bd48, 0px 2px 2px #bd271a;
+            }
+
+            .bill-button:hover{
+                transform: translate(2%, 2%);
+                background-color: #f1eadf;
+                color:#183c26;
+                border: #183c26 3px solid;
+                font-weight: 600;    
+                cursor: pointer !important;
+                box-shadow: 0px 2px 2px #bd271a, 0px 2px 2px #bd271a;
+            }
+
+            #display{
+                margin: 15%;
+            }
+
+            #remv{
+                font-size: 1.5vw;
+                color: #1d3821;
+                text-shadow: 1px 1px 0px white, 2px 2px 0px rgba(0,0,0,0.15);
+            }
+        </style>
+    </head>
+    <header>
+        <div class="navContainer">
+          <div class="navBar navCard">
+              <a href="../../index.html"> <img src="../../images/logo3.png" class=" logo w3-padding-large"
+                  style="width:5em; height: 5.1em; padding: 1%; filter: drop-shadow(3px 4px 0px rgba(0,0,0,0.15));"></a>
+              <a href="../Menu/Menu.html" class="navBarItem navButton"><b>BACK TO MENU</b></a>
+              <a href="../Employment/Employment.html" class="navBarItem navButton">JOB OFFERINGS</a>
+              <a href="../Membership/Membership.html" class="navBarItem navButton">BECOME A MEMBER</a>
+              <a href="../Merch/merch.html" class="navBarItem navButton">BUY OUR MERCH</a>
+              <a href="../Contact2/contact.html" class="navBarItem navButton">CONTACT US</a>
+              <a href="../Locations/locations.html" class="navBarItem navButton">FIND US</a>
+      
+          </div>
+      </div>
+      
+      </header>
+
+    <body>
+        <div id="display">
+            <h1>SHOPPING CART</h1>
+                <form id="cart">
+                    <table id="order-display"></table>
+                </form>
+                <br>
+                <hr style="border-top: 2px dotted #1d3821;">
+                <br>
+            <h1>ORDERED ITEM(S)</h1>
+                <form id="bill">
+                    <table id="ordered-display"></table>
+                    <br>
+                </form>
+                <br>
+                <hr style="border-top: 2px dotted #1d3821;"></hr>
+                <br>
+            <div id="pay">
+                <h1>PAYMENT</h1>
+                <ul id="pay-display">
+                </ul>
+            </div>
+        </div>
+        
+    
+<!-- FOOTER -->
+        <div class="footer" style="margin-left: -1%;">
+            <hr>
+            <div class="mainFooter">
+                <div class="footerCol">
+                    <h1><a href="../Locations/locations.html">DINE WITH US</a></h1>
+                    <h2><a href="../Menu/Menu.html" class="footerSubheading">Menu</a></h2>
+                    <h2><a href="../Menu/Menu.html" class="footerSubheading">Order Now</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Employment/Employment.html">JOIN OUR FAMILY</a></h1>
+                    <h2><a href="../Employment/Employment.html" class="footerSubheading">Job Offerings</a></h2>
+                    <h2><a href="../Membership/Membership.html" class="footerSubheading">Become a Member</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Employment/Employment.html">FIND US AT</a></h1>
+                    <h2 class="footerSubheading">123 Main Street.<br>
+                        Boston, MA 02108<br>
+                    </h2>
+                    <h2><a href="../Locations/locations.html" class="footerSubheading">📍 More Locations</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Contact2/contact.html">CONTACT US</a></h1>
+                    <h2 class="footerSubheading">+1 (857) 302 3044</h2>
+                    <h2 class="footerSubheading">contactwangs@gmail.com</h2>
+                </div>
+                <div class="footerCol">
+                    <div class="footer-icons">
+                        <img src="../../images/logoGreen.png">
+                        <img src="../../images/footerIcon1.png"
+                        style="width:30px; opacity: 0.9; padding-bottom:15%;">
+                        <img src="../../images/footerIcon2.png" 
+                        style="width:30px; opacity: 0.9; padding-bottom:15%;">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="bottomFooter">
+                <h3 style="font-size: 12px;">Copyright © 1999 WANG's.</h3>
+                <h3 style="font-size: 12px;">Privacy &nbsp; | &nbsp; Terms</h3>
+            </div>
+        </div>
+    </body>
+</html>

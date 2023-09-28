@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Wang's">
+        <meta name="keywords" content="Chinese, Food, Restaurant">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="externals/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Questrial&display=swap" rel="stylesheet">
+    </head>
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+   
+<body>
+
+    <!-- Navbar -->
+    <div class="navContainer">
+        <div class="navBar navCard">
+            <a > <img src="./images/logo3.png" class=" logo w3-padding-large"
+                style="width:5em; height: 5.1em; padding: 1%; filter: drop-shadow(3px 4px 0px rgba(0,0,0,0.15));"></a>
+            <a href="pages/Menu/Menu.html" class="navBarItem navButton"><b>ORDER NOW</b></a>
+            <a href="pages/Employment/Employment.html" class="navBarItem navButton">JOB OFFERINGS</a>
+            <a href="pages/Membership/Membership.html" class="navBarItem navButton">BECOME A MEMBER</a>
+            <a href="pages/Merch/merch.html" class="navBarItem navButton">BUY OUR MERCH</a>
+            <a href="pages/Contact2/contact.html" class="navBarItem navButton">CONTACT US</a>
+            <a href="pages/Locations/locations.html" class="navBarItem navButton">FIND US</a>
+
+        </div>
+    </div>
+    
+    <!-- we're now taking online orders -->
+    <div class="banner">
+        <div class="bannerLeft">
+            <h1> We now offer pick-up and deliveries!</h1>
+            <p><b>Welcome to WANG's</b>, where we offer an unforgettable dining 
+            experience of Asian fusion cuisine. Our restaurant combines the best 
+            flavors and cooking techniques from across the continent, creating a menu 
+            that will tantalize your taste buds.</p>
+                <div class="bannerButtons">
+                    <br><a href="pages/Menu/Menu.html" class="orderButton">Order Now</a>
+                    <a href="pages/Membership/Membership.html" class="recipeButton">Join us</a>
+                </div>
+        </div>
+        <div class="bannerRight">
+            <img src="./images/bannerRight.png" 
+                style="width:95%; filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.631));"></img></div>
+        </div>
+    </div>
+
+    <!-- menu highlights -->
+    <div class="table" 
+     style="background-image: url('./images/menuBanner.png');">
+        <h1> MENU HIGHLIGHTS</h1>
+        <div class="table-wrap">
+            <div>
+                <div class="table-title">
+                    <img src="./images/bowl1.png" class="table-image"/>
+                </div>
+                <div>
+                    <h3> Chicken Fried Rice</h3>
+                    <p class="price"> 🌶 $9.99 </p>
+                </div>
+                <a href="pages/Menu/Menu.html" class="menuButton">view on menu</a>
+            </div>
+
+            <div>
+                <div class="table-title">
+                    <img src="./images/bowl2.png" class="table-image"/>
+                </div>
+                <div class="table-description">
+                    <h3> Sukiyaki Udon</h3>
+                    <p class="price"> 🌱 $15.99 </p>
+                </div>
+                <a href="pages/Menu/Menu.html" class="menuButton">view on menu</a>
+            </div>
+
+            <div>
+                <div class="table-title">
+                    <img src="./images/bowl3.png" class="table-image"/>
+                </div>
+                <div class="table-description">
+                    <h3>Beef Udon</h3>
+                    <p class="price"> 🌶🌶 $14.99</p>
+                </div>
+                <a href="pages/Menu/Menu.html" class="menuButton">view on menu</a>
+            </div>
+
+            <div>
+                <div class="table-title">
+                    <img src="./images/bowl4.png" class="table-image"/>
+                </div>
+                <div class="table-description">
+                    <h3>Bangkok Chicken</h3>
+                    <p class="price"> 🌶🌶🌶 $12.99</p>
+                </div>
+                <a href="pages/Menu/Menu.html" class="menuButton">view on menu</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- carousel of featured products / images -->
+    <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+
+        <div class="slides fade">
+            <img src="./images/slideShow1.png" style = "width:1100px;">
+        </div>
+
+        <div class="slides fade">
+            <img src="./images/slideShow2.jpeg" style = "width:1100px;">
+        </div>
+
+        <div class="slides fade">
+            <img src="./images/slideShow3.png" style = "width:1100px;">
+        </div>
+
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <hr>
+        <div class="mainFooter">
+            <div class="footerCol">
+                <h1><a href="pages/Locations/locations.html">DINE WITH US</a></h1>
+                <h2><a href="pages/Menu/Menu.html">Menu</a></h2>
+                <h2><a href="pages/Menu/Menu.html">Order Now</a></h2>
+            </div>
+            <div class="footerCol">
+                <h1><a href="pages/Employment/Employment.html">JOIN OUR FAMILY</a></h1>
+                <h2><a href="pages/Employment/Employment.html">Job Offerings</a></h2>
+                <h2><a href="pages/Membership/Membership.html">Become a Member</a></h2>
+            </div>
+            <div class="footerCol">
+                <h1><a href="pages/Employment/Employment.html">FIND US AT</a></h1>
+                <h2>123 Main Street.<br>
+                    Boston, MA 02108<br>
+                </h2>
+                <h2><a href="pages/Locations/locations.html">📍 More Locations</a></h2>
+            </div>
+            <div class="footerCol">
+                <h1><a href="pages/Contact2/contact.html">CONTACT US</a></h1>
+                <h2>+1 (857) 302 3044</h2>
+                <h2>contactwangs@gmail.com</h2>
+            </div>
+            <div class="footerCol">
+                <div class="footer-icons">
+                    <img src="./images/logoGreen.png">
+                    <img src="./images/footerIcon1.png"
+                    style="width:30px; opacity: 0.9;">
+                    <img src="./images/footerIcon2.png" 
+                    style="width:30px; opacity: 0.9;">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="bottomFooter">
+            <h4>Copyright © 1999 WANG's.</h4>
+            <h4>Privacy &nbsp; | &nbsp; Terms</h4>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+
+        function moveSlide(index) {
+            showSlides(slideIndex += index);
+        }
+
+        function showSlides(index) {
+            let slides = document.getElementsByClassName("slides");
+
+            /* wrap image around */
+            if (index > slides.length - 1) {
+                slideIndex = 0;
+            }
+            if (index < 0) {
+                slideIndex = slides.length - 1;
+            }
+
+            /* set all slides to display none first */
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            /* set current slide to be visible */
+            slides[slideIndex].style.display = "block";
+            
+            /* Fade the logo in home page */
+            $("img.logo").click(function() {
+                $("img.logo").fadeOut("slow");
+                $("img.logo").fadeIn("slow");
+             });
+        }
+        
+    </script>
+</body>
+</html>

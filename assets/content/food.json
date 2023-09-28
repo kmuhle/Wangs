@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Kung Pow Chicken",
+        "id": 0,
+        "price": 12.99,
+        "description": "chicken stir-fry, peanuts, vegetables, and chili peppers • 🌶🌶 ",
+        "image_url": "../../images/kungpow.png"
+    },
+    {
+        "name": "Chow Mein",
+        "id": 1,
+        "price": 9.99,
+        "description": "stir-fried egg noodles and vegetables; seasoned with soy sauce• 🌱",
+        "image_url": "../../images/chowmein.png"
+    },
+    {
+        "name": "Wonton Soup",
+        "id": 2,
+        "price": 6.99,
+        "description": "delicate wonton dumplings stuffed with ground pork and spices • 🌶",
+        "image_url": "../../images/wontonsoup.png"
+        },
+    {
+        "name": "Hot and Sour Soup",
+        "id": 3,
+        "price": 7.99,
+        "description": "spicy and tangy soup with strips of meat, tofu, and vegetables • 🌶",
+        "image_url": "../../images/hotnsour.png"
+    },
+    {
+        "name": "General Tsao's",
+        "id": 4,
+        "price": 13.99,
+        "description": "a popular dish of crispy fried chicken tossed in a sweet and spicy sauce • 🌶",
+        "image_url": "../../images/generaltso.png"
+    },
+    {
+        "name": "Mushu Pork",
+        "id": 5,
+        "price": 11.99,
+        "description": "thin slices of marinated pork stir-fried with cabbage and hoisin sauce",
+        "image_url": "../../images/mushupork.png"
+    },
+    {
+        "name": "Szechuan Beef",
+        "id": 6,
+        "price": 14.99,
+        "description": "beef stir-fry and bell peppers coated with chili paste • 🌶🌶🌶 ",
+        "image_url": "../../images/SzechuanBeef.png"
+    },
+    {
+        "name": "Moo Goo Gai Pan",
+        "id": 7,
+        "price": 10.99,
+        "description": "tender slices of chicken breast stir-fried with snow peas and broccoli",
+        "image_url": "../../images/MooGooGaiPan.png"
+    },
+    {
+        "name": "Mongolian Shrimp",
+        "id": 8,
+        "price": 16.99,
+        "description": "shrimp stir-fried with green onions, garlic, and ginger • 🌶🌶",
+        "image_url": "../../images/mongolianshrimp.png"
+    },
+    {
+        "name": "Ma Po Tofu",
+        "id": 9,
+        "price": 9.99,
+        "description": "soft tofu cubes stir-fried with ground pork, garlic, and ginger • 🌶🌶🌶",
+        "image_url": "../../images/MaPoTofu.png"
+    },
+    {
+        "name": "Bangkok Chicken",
+        "id": 10,
+        "price": 12.99,
+        "description": "chicken breast pieces stir-fried with vegetables; coated in red curry • 🌶",
+        "image_url": "../../images/bowl4.png"
+    },
+    {
+        "name": "Beef Udon",
+        "id": 11,
+        "price": 14.99,
+        "description": "tender slices of beef served over thick and chewy udon noodles",
+        "image_url": "../../images/bowl3.png"
+    },
+    {
+        "name": "Sukiyaki Udon",
+        "id": 12,
+        "price": 15.99,
+        "description": "stir-fried vegetables served over thick and chewy udon noodles • 🌱",
+        "image_url": "../../images/bowl2.png"
+    },
+    {
+        "name": "Chicken Fried Rice",
+        "id": 13,
+        "price": 9.99,
+        "description": "fluffy rice stir-fried with tender pieces of chicken and vegetables • 🌶 ",
+        "image_url": "../../images/bowl1.png"
+    },
+    {
+        "name": "Dumplings",
+        "id": 14,
+        "price": 8.99,
+        "description": "bite-sized delicacies filled a mixture of ground pork and garlic",
+        "image_url": "../../images/dumplings.png"
+    }
+]

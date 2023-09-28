@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Wang's" />
+        <meta name="keywords" content="Chinese, Food, Restaurant" />
+
+        <!-- responsive setting -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- compatible for old IE -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>Membership</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Questrial&display=swap" rel="stylesheet">
+
+        <style type="text/css">
+            /* other stuff */
+            .footerSubheading{
+                color:white;
+                text-shadow:none !important;            
+            }
+
+            a{
+                color: #1d3821;
+                text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);            
+            }
+
+            body{
+                overflow-x: hidden;
+            }
+
+
+            h1{
+                color: #1d3821;
+                text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);
+            }
+
+            .container {
+                text-align: center;
+                height: vh;
+            }
+
+            .heroText {
+                position: absolute;
+                font-size: 2vw;
+                width: 70vw;
+                top: 30vw;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+            }
+
+            .input {
+                font-size: 2vw;
+                line-height: 5vw;
+                font-size: 1.5vw; 
+                color: #1d3821;
+                text-shadow: 2px 1px 0px white;
+            }
+
+            input {
+                padding: 1.2% !important;
+                border: none;
+                border-radius: 50px;
+                width:15%;
+                background-image: linear-gradient(to right bottom, #f0e9e1, #183c2690);
+                border: #183c26 2.5px solid;    
+                border-radius: 30px;
+                font-family: averia;
+            }
+
+            input:focus {
+                box-shadow: 1px 2px 2px #183c26ac;
+                color:#183c26;
+                border: #183c26 2.5px solid;    
+                background-color: #f0e9e1;
+                cursor: pointer !important;
+            }
+
+            button{
+                display: inline-flex;
+                padding: 1% 3%;
+                font-family: averia;
+                font-size: 1.3vw !important;
+                border: #183c26 3px solid;
+                background-color: #183c26;
+                border: #183c26 3px solid;
+                color:white;
+                text-shadow: none;
+                font-size: 110%;
+                font-weight: 600;    
+                cursor: pointer;
+                transition: 0.3s ease;
+                border-radius: 50px;
+                box-shadow: 0px 2px 2px #bd271a, 0px 2px 2px #d5c150d9;
+            }
+
+            button:hover{
+                transform: translate(3px, 3px);
+                cursor: pointer !important;
+                border: #bd271a 2px dotted;
+            }
+
+
+            ul {
+                list-style-type: none;
+                font-size: 1.5vw;
+                line-height: 180% !important;
+                background-image: url("./merchBanner.png");
+                color: #1d3821;
+                text-shadow: 2px 1px 0px rgba(156, 156, 156, 0.378);
+                padding: none;
+            }
+        </style>
+        <link rel="stylesheet" href="../../externals/navibar.css" />
+    </head>
+    <header>
+        <div class="navContainer" style="margin-left: .4% !important; margin-bottom: -5% !important;">
+            <div class="navBar navCard" style="
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+            0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;">
+                <a href="../../index.html">
+                    <img
+                        src="../../images/logo3.png"
+                        class="logo w3-padding-large"
+                        style="
+                            width: 5em;
+                            height: 5.1em;
+                            padding: 1%;
+                            filter: drop-shadow(
+                                3px 4px 0px rgba(0, 0, 0, 0.15)
+                            );
+                        "
+                /></a>
+                <a href="../Menu/Menu.html" class="navBarItem navButton"
+                    ><b>ORDER NOW</b></a
+                >
+                <a
+                    href="../Employment/Employment.html"
+                    class="navBarItem navButton"
+                    >JOB OFFERINGS</a
+                >
+                <a
+                    href="../Membership/Membership.html"
+                    class="navBarItem navButton"
+                    >BECOME A MEMBER</a
+                >
+                <a href="../Merch/merch.html" class="navBarItem navButton"
+                    >BUY OUR MERCH</a
+                >
+                <a href="../Contact2/contact.html" class="navBarItem navButton"
+                    >CONTACT US</a
+                >
+                <a
+                    href="../Locations/locations.html"
+                    class="navBarItem navButton"
+                    >FIND US</a
+                >
+            </div>
+        </div>
+    </header>
+    <body style="margin-left: -.4%;">
+        <div class="container">
+            <div class="wrap">
+            <img
+                style="height: auto; width: 100vw; opacity: 0.6;"
+                src="../../assets/image/hero.jpeg"
+            />
+
+            <div class="heroText">
+                <h1>BECOME OUR MEMBER</h1>
+                <div class="input">
+                    Name: &nbsp;<input id="name" type="text"/> <br> Email: &nbsp;
+                    <input id="email" type="text" />
+                </div> <br>
+                <button onclick="member()">JOIN US</button>
+            </div>
+            <ul>
+                <br><h1>OUR BENEFITS INCLUDE:</h1>
+                <li>🏷 &nbsp; 90% discount on all orders</li>
+                <li>🥢 &nbsp; reserved seats only for members</li>
+                <li>🥡 &nbsp; prime delivery via phone</li> <br>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer" style="text-decoration: none; margin: .05%; width: 98.8%;">
+            <hr style="border-top: 1px solid white; width: 95%;">
+            <br>
+            <div class="mainFooter">
+                <div class="footerCol">
+                    <h1><a href="../Locations/locations.html">DINE WITH US</a></h1>
+                    <h2><a href="../Menu/Menu.html" class="footerSubheading">Menu</a></h2>
+                    <h2><a href="../Menu/Menu.html" class="footerSubheading">Order Now</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Employment/Employment.html">JOIN OUR FAMILY</a></h1>
+                    <h2><a href="../Employment/Employment.html" class="footerSubheading">Job Offerings</a></h2>
+                    <h2><a href="../Membership/Membership.html" class="footerSubheading">Become a Member</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Employment/Employment.html">FIND US AT</a></h1>
+                    <h2 class="footerSubheading">123 Main Street.<br>
+                        Boston, MA 02108<br>
+                    </h2>
+                    <h2><a href="../Locations/locations.html" class="footerSubheading">📍 More Locations</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Contact2/contact.html">CONTACT US</a></h1>
+                    <h2 class="footerSubheading">+1 (857) 302 3044</h2>
+                    <h2 class="footerSubheading">contactwangs@gmail.com</h2>
+                </div>
+                <div class="footerCol">
+                    <div class="footer-icons">
+                        <img src="../../images/logoGreen.png">
+                        <img src="../../images/footerIcon1.png"
+                        style="width:30px; opacity: 0.9; padding-bottom:15%;">
+                        <img src="../../images/footerIcon2.png" 
+                        style="width:30px; opacity: 0.9; padding-bottom:15%;">
+                    </div>
+                </div>
+            </div>
+            <hr style="border-top: 1px solid white; width: 95%;">
+            <div class="bottomFooter">
+                <h3 style="font-size: 12px;">Copyright © 1999 WANG's.</h3>
+                <h3 style="font-size: 12px;">Privacy &nbsp; | &nbsp; Terms</h3>
+            </div>
+        </div>       
+
+        <script>
+            function member() {
+                let name = document.getElementById("name").value;
+                let email = document.getElementById("email").value;
+                if (name !== "" && email !== "") {
+                    sessionStorage.setItem("member?", true);
+                    alert(
+                        "Thanks for registering as our member! Enjoy your discounts!"
+                    );
+                } else {
+                    alert("Sorry, please try to enter again?");
+                }
+            }
+        </script>
+        
+    </body>
+</html>

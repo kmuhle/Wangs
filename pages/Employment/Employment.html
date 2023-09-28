@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Wang's">
+        <meta name="keywords" content="Chinese, Food, Restaurant">
+
+        <!-- responsive setting -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- compatible for old IE -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>Put page title here</title>
+        <link rel="stylesheet" href="../../externals/navibar.css" !important/>
+
+        <!-- favicon added -->
+        <link rel="icon" href="link-to-favicon.ico" type="image/x-icon" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Questrial&display=swap" rel="stylesheet">
+        <style>
+            /* other stuff */
+            .footerSubheading{
+                color:white;
+                text-shadow:none !important;            
+            }
+
+            a{
+                color: #1d3821;
+                text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);            
+            }
+
+            body{
+                overflow-x: hidden;
+            }
+
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+            }
+
+            :root {
+                --split-left: #f1eadf;
+                --split-right: #042242;
+                --primary-color: #fff;
+            }
+
+            img {
+               width: 370%;
+            }
+
+            .brand-logo {
+                padding-left: 0.75rem;
+                width: 150px;
+            }
+
+            /** Home main Section*/
+
+            .home-main {
+                display: flex;
+                margin-top: 7%;
+                margin-bottom: 0%;
+            }
+
+            .home-main__split {
+                width: 50%;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .home-main__split--left {
+                background: url("./bannerLeft.png") var(--split-left) no-repeat;
+                justify-content: flex-end;
+                margin-top: .3% !important;
+            }
+
+            .home-main__small-text {
+                color: #000;
+                text-transform: uppercase;
+                font-size: 0.85em;
+                position: absolute;
+                bottom: 30%;
+                left: 8%;
+                transform: rotate(-90deg);
+            }
+
+            .home-main__split--right {
+                background: url("./bannerRight.png") var(--split-left) no-repeat;
+                align-items: center;
+                justify-content: center;
+                /* z-index: 0; */
+            }
+
+            .home-main__middle {
+                position: absolute;
+                width: 100px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+            }
+
+            .home-main__img {
+                filter: drop-shadow(15px 10px 50px #000);
+                /* h-shadow v-shadow blur(desenfoque) color */
+            }
+
+            .text-container {
+                width: 60%;
+                text-align: left;
+                font-weight: bold;
+                font-size: 1vw;
+                color:#1d3821;
+                margin-top: -8%;
+                text-shadow: .3px .3px 0px #bd271a, 2px 3px 0px rgba(0,0,0,0.15);                
+                margin-left: -5%;
+                transform: rotate(-3deg);
+            }
+
+            .contactButton{
+                display: inline-flex;
+                padding: 2% 5%;
+                margin-left: 40%;
+                border: #183c26 3px solid;
+                background-color: #183c26;
+                border: #183c26 3px solid;
+                color:white;
+                text-shadow: none;
+                font-size: 110%;
+                font-weight: 600;    
+                cursor: pointer;
+                transition: 0.3s ease;
+                border-radius: 50px;
+                box-shadow: 0px 2px 2px #bd271a, 0px 2px 2px #d5c150d9;
+            }
+
+            .contactButton:hover{
+                transform: translate(2px, 2px);
+                cursor: pointer !important;
+                border: #bd271a 2px dotted;
+            }
+
+        </style>
+    </head>
+    <header>
+        <div class="navContainer">
+            <div class="navBar navCard" style="float: none !important;">
+                <a href="../../index.html"> <img src="../../images/logo3.png" class=" logo w3-padding-large"
+                    style="width:7em; height: 7.1em; padding: 1%; filter: drop-shadow(3px 4px 0px rgba(0,0,0,0.15));"></a>
+                <a href="../Menu/Menu.html" class="navBarItem navButton"><b>ORDER NOW</b></a>
+                <a href="../Employment/Employment.html" class="navBarItem navButton">JOB OFFERINGS</a>
+                <a href="../Membership/Membership.html" class="navBarItem navButton">BECOME A MEMBER</a>
+                <a href="../Merch/merch.html" class="navBarItem navButton">BUY OUR MERCH</a>
+                <a href="../Contact2/contact.html" class="navBarItem navButton">CONTACT US</a>
+                <a href="../Locations/locations.html" class="navBarItem navButton">FIND US</a>
+        
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <section class="home-main" style="margin-left: -.5%;">
+            <div class="home-main__split home-main__split--left">
+                <span class="home-main__small-text"
+                style="color:#f1eadf;
+                text-shadow: 2px 2px 0px #bd271a;
+                font-size: 1.8vw; margin-left: -10.5%; margin-bottom: 2%;">YOUR CHANCE TO JOIN US! APPLY NOW!
+                </span>
+              </div>
+              <div class="home-main__middle">
+                <br><br>
+                <img src="./justText.png" class="home-main__img" />
+              </div>
+              <div class="home-main__split home-main__split--right">
+                <h1 class="home-main__title" 
+                style="color: #1d3821; text-shadow: 2px 1px 0px #bd271a, 2px 3px 0px rgba(0,0,0,0.15);
+                font-size: 4vw; font-weight: 900; margin-top: 37%; margin-left: -42%;
+                transform: rotate(-3deg); margin-bottom: 6%;">YOU!</h1>
+                <div class="text-container">
+                  <p class="home-main__description"> This is your oppurtunity to join our community! <br>
+                    Email your resume to contactwangs@gmail.com <br> for more info.
+                  </p>
+                  <a href="../Contact2/contact.html" class="contactButton">CONTACT US</a>
+                </div>
+              </div>
+        </section>
+
+       <!-- FOOTER -->
+        <div class="footer" style="text-decoration: none; margin: .05%; width: 98.8%;">
+            <hr style="border-top: 1px solid white; width: 95%;">
+            <br>
+            <div class="mainFooter">
+                <div class="footerCol">
+                    <h1><a href="../Locations/locations.html">DINE WITH US</a></h1>
+                    <h2><a href="../Menu/Menu.html" class="footerSubheading">Menu</a></h2>
+                    <h2><a href="../Menu/Menu.html" class="footerSubheading">Order Now</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Employment/Employment.html">JOIN OUR FAMILY</a></h1>
+                    <h2><a href="../Employment/Employment.html" class="footerSubheading">Job Offerings</a></h2>
+                    <h2><a href="../Membership/Membership.html" class="footerSubheading">Become a Member</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Employment/Employment.html">FIND US AT</a></h1>
+                    <h2 class="footerSubheading">123 Main Street.<br>
+                        Boston, MA 02108<br>
+                    </h2>
+                    <h2><a href="../Locations/locations.html" class="footerSubheading">📍 More Locations</a></h2>
+                </div>
+                <div class="footerCol">
+                    <h1><a href="../Contact2/contact.html">CONTACT US</a></h1>
+                    <h2 class="footerSubheading">+1 (857) 302 3044</h2>
+                    <h2 class="footerSubheading">contactwangs@gmail.com</h2>
+                </div>
+                <div class="footerCol">
+                    <div class="footer-icons">
+                        <img src="../../images/logoGreen.png">
+                        <img src="../../images/footerIcon1.png"
+                        style="width:30px; opacity: 0.9; padding-bottom:15%;">
+                        <img src="../../images/footerIcon2.png" 
+                        style="width:30px; opacity: 0.9; padding-bottom:15%;">
+                    </div>
+                </div>
+            </div>
+            <hr style="border-top: 1px solid white; width: 95%;">
+            <div class="bottomFooter">
+                <h3 style="font-size: 12px;">Copyright © 1999 WANG's.</h3>
+                <h3 style="font-size: 12px;">Privacy &nbsp; | &nbsp; Terms</h3>
+            </div>
+        </div>
+    </body>
+</html>

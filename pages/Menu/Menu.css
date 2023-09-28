@@ -1,0 +1,72 @@
+.topnav {
+        overflow: hidden;
+        background-color: orangered; 
+}
+
+.topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 0.75vw 1.5vw;
+        text-decoration: none;
+        font-size: 2vw;
+}
+
+.topnav a:hover {
+        background-color: white;
+        color: black;
+}
+
+.topnav a.active {
+        background-color: orange;
+        color: yellow;
+}
+
+.topnav a.logo {
+        margin-right: 5vw;
+}
+
+div.display-grid {
+        display: block;
+}
+
+div.food-display {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 15vw;
+}
+
+div.food-display:hover {
+        border: 1px solid #777;
+}
+
+div.food-display img {
+        width: 100%;
+        height: auto;
+}
+
+div.text-display {
+        padding: 1vw;
+        text-align: center;
+        font-size: 1vw;
+}
+
+div.count-display {
+        padding: 1vw;
+        text-align: center;
+        font-size: 1vw;
+}
+
+div.button-display {
+        margin: auto;
+        padding: 1vw;
+        display: flex;
+}
+
+div.button-display button {
+        margin-left: 2vw;
+        width: 4vw;
+        height: 2vw;
+        font-size: 1vw;
+}

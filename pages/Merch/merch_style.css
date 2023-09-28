@@ -1,0 +1,15 @@
+
+
+
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+.product {
+    width: 300px;
+    border: 2px solid #d1292d;
+    margin: 10px;
+    padding: 10px;
+}
+

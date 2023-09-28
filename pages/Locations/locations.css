@@ -1,0 +1,209 @@
+html,body{
+    font-family: Averia Serif Libre!important;
+    font-size:15px;
+    line-height:1.5;
+    background-color: #f1eadf;
+    width: 100%;
+    /* overflow-x: auto; */
+}
+
+h1{
+    text-align: center;
+    color: #1d3821;
+    text-shadow: 1px 1px 0px white, 2px 3px 0px rgba(0,0,0,0.15);
+} 
+
+
+h2{
+    text-align: center;
+    color: #1d3821;
+    text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);
+    margin-bottom: 3%;
+    margin-top: 2%;
+} 
+
+p{
+    text-align: center;
+    color: #1d3821;
+    text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);
+    font-size: 1.1vw;
+} 
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+hr{
+    width: 50px;
+}
+
+#list_and_map{
+    display: flex;
+    width: 100%;
+    color:#e1dece;
+}
+
+#loc_button{
+    font-size: 1.2vw;
+    font-family: Averia;
+    font-stretch: expanded;
+    text-align: center;
+    display: inline-flex;
+    margin-top: 2% !important;
+    padding: 1% 1.5%;
+    background-color: #f1eadf;
+    color:#183c26;
+    border: #183c26 3px solid;
+    font-weight: 600;    
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px white, 0px 1px 1px #bd271a;
+    margin-bottom: 4% !important;
+}
+
+#loc_button:hover{
+    transform: translate(2%, 2%);
+    font-weight: 600;    
+    cursor: pointer !important;
+    color:#f0e9e1;
+    background-image: linear-gradient(to right bottom, #f0e9e1, #183c26);
+    box-shadow: 0px 1px 1px white, 0px 1px 1px #bd271a;
+}
+
+#address{
+    width: 50%;
+    position:relative;
+    margin-top: 10px;
+}
+
+#address_input{
+    color:#183c26;
+    border: #183c26 2.5px solid;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #f0e9e1;
+    font-family: averia;
+}
+
+#address_input:hover{
+    background-image: linear-gradient(to right bottom, #f0e9e1, #183c2664);
+    cursor: pointer !important;
+}
+
+#address_button{
+    font-size: 1vw !important;
+    position: absolute;
+    right: 0px;
+    border-radius: 50px;
+    top: 10px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #183c26;
+    border: #183c26 2.5px solid;
+    box-shadow: 0px 1px 1px #d1292d, 0px 1px 1px #d1292d;
+    color:white;    
+    font-family: Averia;
+}
+
+#address_button:hover{
+    box-shadow: 0px 1px 1px white, 0px 2px 2px #d1292d;
+    transform: translate(1px, 1px);
+}
+
+#locations_block{
+    width: 35%;
+    margin: 0 auto;
+}
+
+#location_table {
+    overflow-y: auto;
+    height: 600px;
+    margin: auto;
+    border-style: none;
+    text-align: center;
+}
+
+.location{
+    border-style: solid;
+    padding: 1vw;
+    position: relative;
+    border:none;
+    background-image: linear-gradient(to right bottom, #f0e9e1, #c8b0466e);
+    box-shadow: 2px 1px 0px #183c26, 3px 4px 0px rgba(0,0,0,0.15);            
+    color:#183c26;      
+    border-radius: 20px;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.location.active {
+    background-color: #d1292d;
+    border-bottom: none;
+}
+
+.location:hover{
+    background-image: linear-gradient(to right bottom, #f0e9e1, #c8b146);
+    cursor: pointer !important;
+    border: #183c26 3px solid;
+    box-shadow: 1px 1px 0px #183c269a;            
+}
+
+.info{
+    background-color: #1d3821;
+    box-shadow: 10px;
+    border: none;
+    padding: 10px 10px 30px 10px;
+}
+
+/* .days{
+    display:inline-block;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.hours{
+    display:inline-block;
+    text-align: left;
+}
+
+.phone{
+    margin-bottom:10px;
+} */
+
+#map {
+    width: 65%;
+    height: 600px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 0px #c8b146, 4px 4px 0px rgba(0,0,0,0.15);            
+}
+
+.mapboxgl-popup-content{
+    color: #191a1a;
+}
+
+/* other stuff */
+.footerSubheading{
+    color:white;
+    text-shadow:none !important;            
+}
+
+a{
+    color: #1d3821;
+    text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);            
+}

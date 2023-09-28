@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <!-- responsive setting -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- compatible for old IE -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>Put page title here</title>
+        <link rel="stylesheet" href="../../styles.css" />
+
+        <!-- favicon added -->
+        <link rel="icon" href="link-to-favicon.ico" type="image/x-icon" />
+
+        <style type="text/css">
+            .container {
+                position: relative;
+                text-align: center;
+                height: 250px;
+            }
+
+            .heroText {
+                position: absolute;
+                font-size: 2vw;
+                width: 70vw;
+                top: 30vw;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+            }
+
+            h1 {
+                font-size: 3vw;
+                text-align: center !important;
+            }
+
+            .input {
+                font-size: 2.5vw;
+            }
+
+            input {
+                width: 15vw;
+                height: 3vw;
+                font-size: 3vw;
+            }
+
+            button {
+                width: 15vw;
+                height: 3vw;
+                font-size: 2vw;
+            }
+
+            ul {
+                list-style-type: none;
+                font-size: 2vw;
+            }
+        </style>
+    </head>
+
+    <header>
+        <!-- navigation -->
+        <!-- navigation -->
+        <!-- <div class="navContainer"> -->
+        <a href="./index.html"
+            ><img
+                src="../../logo3.png"
+                class="logo"
+                style="
+                    width: 8em;
+                    height: 8.1em !important;
+                    position: fixed;
+                    margin-top: -11%;
+                    margin-left: 3%;
+                    filter: drop-shadow(3px 4px 0px rgba(0, 0, 0, 0.15));
+                    z-index: 100;
+                "
+        /></a>
+        <div class="navBar">
+            <a href="#order" class="navButton" style="padding-top: 15%"
+                ><b>ORDER NOW</b></a
+            >
+            <a href="#aboutUs" class="navButton">MENU</a>
+            <a href="#aboutUs" class="navButton">ABOUT US</a>
+            <a href="#aboutUs" class="navButton">📍 FIND US</a>
+        </div>
+
+        <!-- we're now taking online orders -->
+        <div class="banner"></div>
+    </header>
+
+    <body>
+        <div class="container">
+            <img
+                style="height: auto; width: 100vw"
+                src="../../assets/image/test.jpeg"
+            />
+
+            <div class="heroText">
+                <h1>MemberShip</h1>
+                <hr />
+                <div class="input">
+                    Name: <input id="name" type="text" /> &nbsp;&nbsp; Email:
+                    <input id="email" type="text" />
+                </div>
+                <hr />
+                <button onclick="member()">Join us</button>
+            </div>
+
+            <ul>
+                <h2>Benefits</h2>
+                <li>90% discount on all orders</li>
+                <hr />
+                <li>Reserved seats only for members</li>
+                <hr />
+                <li>Prime delivery via phone</li>
+                <br />
+                <br />
+                <br />
+            </ul>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <script>
+            function member() {
+                let name = document.getElementById("name").value;
+                let email = document.getElementById("email").value;
+                if (name !== "" && email !== "") {
+                    sessionStorage.setItem("member?", true);
+                    alert(
+                        "Thanks for registering as our member! Enjoy your discounts!"
+                    );
+                } else {
+                    alert("Sorry, please try to enter again?");
+                }
+            }
+        </script>
+        <footer
+            class="footer"
+            style="position: fixed; bottom: 0; left: 0; right: 0"
+        >
+            <p>
+                FOLLOW US ON
+                <a
+                    href="https://www.instagram.com/national_palace_museum/"
+                    title="INSTAGRAM"
+                    target="_blank"
+                    >INSTAGRAM</a
+                >
+            </p>
+        </footer>
+    </body>
+</html>

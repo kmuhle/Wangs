@@ -1,0 +1,42 @@
+.navBar{
+    position: fixed;
+    margin-left: 65%;
+    margin-top: -9%;
+    width: fit-content;
+    height: 30%;
+    z-index: 100;
+    /* background-color: #f1eadf;
+    box-shadow: 2px 1px 0px black, 3px 4px 0px rgba(0,0,0,0.15); */
+}
+
+
+img{vertical-align:middle;}a{color:inherit}
+
+
+.navButton{
+    font-size: 1.3em;
+    text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);
+    color: #1d3821;    
+    padding:8px 8px;
+    text-decoration:none;
+    cursor:pointer;
+    align-items: right;
+    position: sticky;
+    z-index: 100;
+}
+
+/* .navButton{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}    */
+
+
+.navButton:hover{
+    text-shadow: 2px 1px 0px white, 6px 6px 6px rgba(0,0,0,0.3);
+}
+
+

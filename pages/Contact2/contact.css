@@ -1,0 +1,119 @@
+html,body{
+    font-family: Averia Serif Libre!important;
+    font-size:15px;
+    line-height:1.5;
+    background-color: #f1eadf;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 100%;
+    margin-top: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #1d3821;
+    text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);
+    margin-bottom: -0.5%;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -0.5%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form input{
+    padding: 1% .2%;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width:18%;
+    background-image: linear-gradient(to right bottom, #f0e9e1, #183c2690);
+    border: #183c26 2.5px solid;    
+    border-radius: 30px;
+    font-family: averia;
+}
+
+form textarea {
+    padding: 1.2%;
+    border: none;
+    border-radius: 50px;
+    background-color: #f0e9e1;
+    margin-bottom: 20px;
+    width: 30%;
+    box-shadow: 1px 2px 2px #c8b146;
+    color:#c8b146;
+    border: #c8b146 2.5px solid;
+    background-image: linear-gradient(to right bottom, #f0e9e1, #c8b0469a);
+}
+
+form input:focus {
+    box-shadow: 1px 2px 2px #183c26ac;
+    color:#183c26;
+    border: #183c26 2.5px solid;    
+    background-color: #f0e9e1;
+    cursor: pointer !important;
+}
+
+form textarea:focus {
+    background-image: linear-gradient(to right bottom, #f0e9e1, #c8b0469a);
+    cursor: pointer !important;
+}
+
+form input[type="submit"]{
+    display:block;
+    font-family: Averia Serif Libre!important;
+    font-size: 1.4vw !important;
+    font-weight: 600;  
+    padding: 1% 0.5%;
+    width: 10%;
+    margin: 0 auto;
+    box-shadow: 2px 1px 0px #183c26, 3px 4px 0px #c8b0469a; 
+    color:#f0e9e1; 
+    border: none;          
+    font-size: 110%;
+    font-weight: 600;    
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #1d3821;
+}
+
+form input[type="submit"]:hover {   
+    color:white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 0 auto;
+    transform: translate(2%, 2%);
+    background-color: #1d3821 !important;
+}
+
+/* other stuff */
+.footerSubheading{
+    color:white;
+    text-shadow:none !important;            
+}
+
+a{
+    color: #1d3821;
+    text-shadow: 2px 1px 0px white, 3px 4px 0px rgba(0,0,0,0.15);            
+}

@@ -1,0 +1,61 @@
+.topnav {
+        overflow: hidden;
+        background-color: orangered; 
+}
+
+.topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 20px 26px;
+        text-decoration: none;
+        font-size: 30px;
+}
+
+.topnav a:hover {
+        background-color: white;
+        color: black;
+}
+
+.topnav a.active {
+        background-color: orange;
+        color: yellow;
+}
+
+.topnav a.logo {
+        margin-right: 5vw;
+}
+
+.contactpage {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 50vw 50vw;
+    }
+    
+    .Address {
+        text-align: center;
+        background-color:aliceblue;
+    }
+    .Address>h1 {
+        font-size: 3vw;
+        font-family: "Papyrus", "Fantasy";
+    }
+    
+    .Address>p {
+        font-size: 1.5vw;
+        font-family: "Papyrus", "Fantasy";
+    }
+    
+    .Contact {
+        text-align: center;
+        background-color:rgb(141, 137, 137);
+    }
+    
+    .Contact>h1 {
+        font-size: 3vw;
+        font-family: "Papyrus", "Fantasy";
+    }
+    .Contact>p {
+        font-size: 1.5vw;
+        font-family: "Papyrus", "Fantasy";
+    }
